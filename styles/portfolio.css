@@ -99,7 +99,7 @@ main section{ margin-top: 130px;
     padding: 190px 250px;
     text-align: center;
     margin-top: 130px;
-    margin-bottom: ;
+    
 
 }
 /* skills section styles */
@@ -142,14 +142,14 @@ footer{
     width: 50%;
     
 }
-footer input [type= "text"], footer input [type= "email"], 
-footer textarea  {
-height: 64px;
-border-radius: 5px;
-background-color: white;
-display: block;
-width: 461px;
-padding: 10px 20px;
-margin-bottom: 24px;
-border: none;
-} 
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 461px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
